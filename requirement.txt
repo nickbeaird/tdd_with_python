@@ -1,0 +1,4 @@
+selenium==3.141.0
+Django==1.11.20
+django-two-factor-auth
+
