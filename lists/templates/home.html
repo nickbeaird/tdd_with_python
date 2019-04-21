@@ -1,3 +1,15 @@
 <html>
     <title>To-Do Lists</title>
 </html>
+<body>
+    <h1>Your To-Do Lists</h1> 
+    <form method="POST">
+        <input name="item_text" id="id_new_item" placeholder="Enter a to-do item"/>
+        {% csrf_token %}
+    </form>
+    
+    <table id="id_list_table">
+        <tr></tr>
+        <tr></tr>
+    </table>
+</body>
