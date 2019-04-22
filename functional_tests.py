@@ -56,8 +56,8 @@ class NewVisitorTest(unittest.TestCase):
         self.check_for_row_in_list_table('1: Buy peacock feathers')
         self.check_for_row_in_list_table('2: Use peacock feathers to make a fly')
 
-        # Edith wonders whether the site will remmeber her list. Then she sees
-        # that the site has generated a unique URL for her -- ther is some explanatory
+        # Edith wonders whether the site will remember her list. Then she sees
+        # that the site has generated a unique URL for her -- there is some explanatory
         # text to that effect. 
 
         # She visits that URL - her to-do list is still there. 
